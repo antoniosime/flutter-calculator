@@ -1,4 +1,3 @@
-
 import 'package:calculator/custom_button.dart';
 
 import 'package:flutter/material.dart';
@@ -31,7 +30,7 @@ class _CalculatorState extends State<Calculator> {
         if (hRezult.length > 0)
           hRezult = hRezult.substring(0, hRezult.length - 1);
 
-        if(hRezult.length==0) rezult ="";
+        if (hRezult.length == 0) rezult = "";
 
         total = 0;
         currentNumber = "";
